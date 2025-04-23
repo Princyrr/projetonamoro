@@ -1,0 +1,336 @@
+/* styles.css */
+body {
+    margin: 0;
+    height: 100vh;
+    
+    background-image: url('/img/tela.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('/img/tela.png');
+  
+  }
+  /* Personalização para o Card 1 */
+.card-1 {
+    width: 500px;/* Ajuste a largura para manter o tamanho consistente */
+    height: 400px;  
+    background-color: rgb(138, 89, 168);
+    padding: 20px;
+    border-radius: 12px 0px 0px 12px;
+    box-shadow: 4px 5px 3px  rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid rgb(219, 183, 241);
+    
+  }
+
+  .card-1 h2{
+    margin-top: 100px;
+  }
+  .logo-img{
+    width: 400px;
+  }
+  
+  /* Personalização para o Card 2 */
+  .card-2 {
+    width: 500px;  /* Ajuste a largura para manter o tamanho consistente */
+    height: 400px; 
+    background-color: rgb(138, 90, 167);
+    padding: 20px;
+    border-radius: 0px 12px 12px 0px;
+    box-shadow: 3px 5px 0px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+      align-items: center;
+  }
+  
+  .space-y-4{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  /* Centralização dos cards */
+  
+  
+  /* Personalização do link */
+  
+  
+  
+  /* Personalização do botão */
+  .button-login {
+    background-color: #6a0783;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-login:hover {
+    background-color: #e957bd;
+  }
+  
+  /* Personalização do texto de cadastro */
+  .text-cadastro {
+    color: #520570;
+  }
+  
+  .text-cadastro:hover {
+    color: #ee51e1;
+  }
+  /* Adicionando layout lado a lado para os cards */
+
+.text-2xl{
+    color: #fc65ce;
+    font-size: 40px;
+}
+
+.text-center{
+display: flex;
+align-items: center;
+gap: 5px;
+}
+
+.text-center p{
+  font-weight: bold;
+  font-size: 12px;
+}
+
+/* pagina cadastro */
+
+.card-cadastro {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Personalização da sombra */
+  border-radius: 20px;
+  background-color: rgb(138, 89, 168); /* Cor de fundo customizada */
+  padding: 30px; /* Ajuste o padding, se necessário */
+  width: 500px;
+  height: 700px;
+}
+
+.input-custom, .input-civil {
+ 
+ padding: 1px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 90%; /* Largura total */
+  transition: border-color 0.3s ease;
+}
+
+.input-custom:focus {
+  border-color: #6200ea;
+  outline: none;
+}
+
+.botao-cadastro {
+  background-color: #4e0679; /* Cor de fundo roxa */
+  color: white; /* Cor do texto */
+  padding: 10px 20px; /* Espaçamento interno */
+  border: none; /* Remove a borda */
+  border-radius: 8px; /* Bordas arredondadas */
+  font-size: 16px; /* Tamanho da fonte */
+  width: 100%; /* Ocupa toda a largura disponível */
+  cursor: pointer; /* Muda o cursor para indicar que é clicável */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Efeito de transição */
+}
+
+.botao-cadastro:hover {
+  background-color: #cd6dd6; /* Cor de fundo quando o mouse passa sobre o botão */
+  transform: scale(1.05); /* Leve aumento de tamanho ao passar o mouse */
+}
+
+.botao-cadastro:active {
+  background-color: #e156f3; /* Cor de fundo ao clicar */
+  transform: scale(0.98); /* Leve diminuição de tamanho ao clicar */
+}
+
+.link-log{
+  color: #4e0679;
+}
+
+.link-log:hover{
+  color: #cd6dd6;
+}
+
+/* pagina principal*/
+
+
+
+.links-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  
+ 
+  
+}
+
+.link-item {
+  width: 100px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  
+}
+
+.link-item:hover {
+  transform: scale(1.1);
+ 
+}
+
+.link-img {
+  width: 100%;
+  
+  object-fit: cover;
+  border-radius: 90px;
+ 
+}
+
+.link-title {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: #6a0783;
+  font-weight: bold;
+  
+}
+
+a{
+  text-decoration: none;
+}
+
+
+.banner-content{
+
+  color: #7e16a7;
+text-align: center;
+
+ 
+}
+
+.templante{
+
+  top: 0; /* Coloca no topo */
+  left: 0;
+  background-color: #ffffff; /* Define um fundo para contraste */
+  text-align: center;
+  flex: 1;
+
+}
+
+.tela-principal {
+  
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 15px  solid #520570;
+  
+ 
+}
+
+.card-actions{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.perfil{
+  display: flex;
+  justify-content: center;
+    flex-wrap: wrap;
+
+  gap: 15px;
+  max-height: 100vh;
+  
+ 
+}
+
+.card{
+background-color: #e9e9e9;
+width: 260px;
+height: 400px;
+min-height: 400px;
+box-shadow: 2px 5px 10px;
+border-radius: 20px;
+
+
+}
+
+.card-img{
+  width: 200px;
+  height: 220px;
+  margin-top: 20px;
+}
+
+.cont2 {
+  min-height: 100vh;
+}
+
+.logado{
+  display: flex;
+  align-items: center; /* Alinha os itens verticalmente */
+  justify-content: center; /* Mantém os itens alinhados à esquerda */
+  gap: 10px;
+ 
+  
+}
+
+.status-logado img{
+  width: 20px;
+}
+.status-logado{
+  display: flex;
+  gap: 5px;
+  align-items: center; /* Alinha os itens verticalmente */
+  justify-content: center;
+}
+.sair{
+  font-size: 9px;
+  color: #7a787e;
+}
+
+.topo{
+  background-color: #e2dee2;
+  box-shadow: 2px 2px 5px #7a787e;
+}
+
+/*footer*/
+
+
+.footer {
+  background-color: #e2dee2;
+  color: rgb(81, 11, 102);
+  text-align: center;
+  padding: 20px 0;
+  width: 100%; 
+  padding: 15px 0;
+  margin-top: 800px;
+  border-top: 15px  solid #520570;
+  
+}
+
+.footer a {
+  color: #1a1919;
+  text-decoration: none;
+  margin: 0 10px;
+
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
