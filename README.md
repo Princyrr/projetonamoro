@@ -1,12 +1,37 @@
-# React + Vite
+# 💘 Projeto Namoro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esse é um projeto de uma plataforma de relacionamentos desenvolvida com **React**, **Vite** e muito carinho! 💻✨
 
-Currently, two official plugins are available:
+A ideia é proporcionar um espaço moderno, bonito e funcional para que pessoas possam se conectar e, quem sabe, encontrar o amor da vida. ❤️
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Funcionalidades
 
-## Expanding the ESLint configuration
+- Tela de login e cadastro
+- Página principal com sugestões de perfis
+- Design moderno e responsivo
+- Animações suaves com hover e efeitos visuais
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tecnologias Utilizadas
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/) *(opcional, se estiver usando)*
+- JavaScript
+- HTML e CSS
+
+## 📁 Estrutura do Projeto
+
+## 📸 Print da Tela
+
+*(Coloque aqui prints bonitos da sua aplicação)*
+
+## 📌 Status do Projeto
+
+> 🚧 Projeto em desenvolvimento... mas já funcionando! Em breve novas melhorias e funcionalidades. 💡
+
+## 💡 Autor(a)
+
+Feito com 💜 por [@Princyrr](https://github.com/Princyrr)
+
+---
+
