@@ -33,5 +33,23 @@ A ideia é proporcionar um espaço moderno, bonito e funcional para que pessoas 
 
 Feito com 💜 por [@Princyrr](https://github.com/Princyrr)
 
+
+
+## 📸 Print da Tela
+
+## Tela de Login
+
+![Print da tela](https://raw.githubusercontent.com/Princyrr/telalogin/main/public/img/telalogin.png)
+
+
+## Tela de Cadratro
+![Print da tela de cadastro](https://raw.githubusercontent.com/Princyrr/telalogin/main/public/img/telacadastro.png)
+
+
+## Telas da página principal (personagens feitos com inteligência Artificial)
+![Print da tela principal](https://raw.githubusercontent.com/Princyrr/telalogin/main/public/img/telaprincipal.png)
+
+![Print da tela principal 2](https://raw.githubusercontent.com/Princyrr/telalogin/main/public/img/telaprincipal2.png)
+
 ---
 
