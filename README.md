@@ -37,19 +37,16 @@ Feito com 💜 por [@Princyrr](https://github.com/Princyrr)
 
 ## 📸 Print da Tela
 
-## Tela de Login
+### Tela de Login
+![Print da tela](public/img/telalogin.png)
 
-![Print da tela](https://raw.githubusercontent.com/Princyrr/telalogin/main/public/img/telalogin.png)
+### Tela de Cadastro
+![Print da tela de cadastro](public/img/telacadastro.png)
 
+### Telas da página principal (personagens feitos com Inteligência Artificial)
+![Print da tela principal](public/img/telaprincipal.png)
 
-## Tela de Cadratro
-![Print da tela de cadastro](https://raw.githubusercontent.com/Princyrr/telalogin/main/public/img/telacadastro.png)
-
-
-## Telas da página principal (personagens feitos com inteligência Artificial)
-![Print da tela principal](https://raw.githubusercontent.com/Princyrr/telalogin/main/public/img/telaprincipal.png)
-
-![Print da tela principal 2](https://raw.githubusercontent.com/Princyrr/telalogin/main/public/img/telaprincipal2.png)
+![Print da tela principal 2](public/img/telaprincipal2.png)
 
 ---
 
